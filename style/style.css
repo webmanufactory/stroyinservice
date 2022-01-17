@@ -8,30 +8,6 @@ img {
 .main {
   margin-top: 20px;
 }
-.main {
-}
-.container-fluid {
-}
-.row {
-}
-.col-xs-12 {
-}
-.col-sm-4 {
-}
-.col-md-3 {
-}
-.catalogue {
-}
-.catlogue__image {
-}
-.catalogue__img {
-}
-.col-sm-8 {
-}
-.col-md-9 {
-}
-.diagnostics-page {
-}
 .diagnostics-page__title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -87,13 +63,13 @@ img {
   border-radius: 6px;
 }
 #diagnostics-form__input-name {
-  background: #fff url(/img/icons/input-name.svg) no-repeat left 18px center;
+  background: #fff url(../img/icons/input-name.svg) no-repeat left 18px center;
 }
 #diagnostics-form__input-phone {
-  background: #fff url(/img/icons/input-phone.svg) no-repeat left 18px center;
+  background: #fff url(../img/icons/input-phone.svg) no-repeat left 18px center;
 }
 #diagnostics-form__input-email {
-  background: #fff url(/img/icons/input-email.svg) no-repeat left 18px center;
+  background: #fff url(../img/icons/input-email.svg) no-repeat left 18px center;
 }
 .comment-form__textarea {
    margin-bottom: 15px;
@@ -144,8 +120,6 @@ img {
 .diagnostics-info__text {
   font-size: 18px;
   color: #000000;
-}
-.diagnostics-page__price {
 }
 .diagnostics-page__subtitle {
   margin: 0;
@@ -273,8 +247,6 @@ img {
   font-weight: 500;
   font-size: 12px;
   color: #000000;
-}
-.diagnostics-page__description {
 }
 .diagnostics-description__text {
   font-size: 18px;
