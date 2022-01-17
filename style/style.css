@@ -1,0 +1,315 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.main {
+  margin-top: 20px;
+}
+.main {
+}
+.container-fluid {
+}
+.row {
+}
+.col-xs-12 {
+}
+.col-sm-4 {
+}
+.col-md-3 {
+}
+.catalogue {
+}
+.catlogue__image {
+}
+.catalogue__img {
+}
+.col-sm-8 {
+}
+.col-md-9 {
+}
+.diagnostics-page {
+}
+.diagnostics-page__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.diagnostics-page__banner {
+  margin-bottom: 10px;
+}
+.diagnostics-page__form-wrap {
+  margin-bottom: 20px;
+}
+.diagnostics-page__form {
+  margin-bottom: 20px;
+  padding: 30px;
+  background: #ddd;
+  border-radius: 6px;
+}
+.diagnostics-form__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.diagnostics-form__subtitle {
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.diagnostics-form {
+  display: flex;
+  flex-direction: column;
+}
+.diagnostics-form__input-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.diagnostics-form__label {
+  font-weight: 300;
+  font-size: 9px;
+  color: #000000;
+}
+.diagnostics-form__input {
+  margin-bottom: 6px;
+  padding: 10px;
+  padding-left: 40px;
+  font-size: 12px;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+}
+#diagnostics-form__input-name {
+  background: #fff url(/img/icons/input-name.svg) no-repeat left 18px center;
+}
+#diagnostics-form__input-phone {
+  background: #fff url(/img/icons/input-phone.svg) no-repeat left 18px center;
+}
+#diagnostics-form__input-email {
+  background: #fff url(/img/icons/input-email.svg) no-repeat left 18px center;
+}
+.comment-form__textarea {
+   margin-bottom: 15px;
+  padding: 10px;
+  font-size: 12px;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  resize: none;
+}
+.diagnostics-form__image {
+  margin-bottom: 20px;
+}
+.diagnostics-form__button {
+  margin-bottom: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #428739;
+  border: none;
+  border-radius: 6px;
+}
+.diagnostics-form__disclaimer {
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.diagnostics-form__disclaimer-text {
+  display: inline-block;
+  font-size: 10px;
+  line-height: 1.1;
+}
+.diagnostics-info__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.diagnostics-info__brands {
+  font-size: 18px;
+  color: #428739;
+}
+.diagnostics-info__text {
+  font-size: 18px;
+  color: #000000;
+}
+.diagnostics-page__price {
+}
+.diagnostics-page__subtitle {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}
+.diagnostics-price__items {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.diagnostics-price__item:nth-child(1) {
+  position: relative;
+  padding-right: 35px;
+  flex-direction: row;
+}
+.diagnostics-price__item:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background: #428739;
+}
+.diagnostics-price__item:nth-child(2) {
+  padding-left: 35px;
+}
+.diagnostics-price__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 0 0 50%;
+}
+.price-item__info {
+  padding-right: 10px;
+}
+.price-item__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.price-item__text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+.price-item__cost {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.prise-item__cost-number {
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 36px;
+  color: #428739;
+}
+.diagnostics-page__repair {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1vw;
+}
+.diagnostics-repair__item {
+  position: relative;
+  padding-top: 100%;
+}
+.diagnostics-repair__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.diagnostics-repair__title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+.faq {
+  margin-bottom: 40px;
+}
+.faq-item {
+  margin-bottom: 6px;
+  border: 1px solid #000000;
+}
+.faq-item__header {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.faq-header__title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.faq-header__button {
+  background-color: transparent;
+  border: none;
+  transition: .3s ease;
+}
+.faq-header__button.active {
+  transform: rotate(180deg);
+}
+.faq-item__body {
+  padding: 0 50px;
+}
+.faq-body__text {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+}
+.diagnostics-page__description {
+}
+.diagnostics-description__text {
+  font-size: 18px;
+  color: #000000;
+}
+.diagnostics-description__image {
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 992px) {
+  .diagnostics-price__items {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .diagnostics-price__item {
+    align-items: flex-start;
+  }
+  .diagnostics-price__item:nth-child(1),
+  .diagnostics-price__item:nth-child(2) {
+    padding: 0;
+  }
+  .diagnostics-price__item:nth-child(1)::after {
+    display: none;
+  }
+  .diagnostics-page__repair {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .diagnostics-page__repair {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .faq-item__header {
+    padding: 15px 20px;
+  }
+  .faq-item__body {
+    padding: 0 20px;
+  }
+}
